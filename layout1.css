@@ -1,0 +1,60 @@
+.poligono01{
+    background-color: navy;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.poligono02{
+    background-color: teal;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.poligono03{
+    background-color: purple;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.poligono04{
+    background-color: olive;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.poligono05{
+    background-color: red;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+@media (max-width: 760px){
+.poligono01{   
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+
+.poligono02{
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+.poligono03{
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+.poligono04{
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+.poligono05{
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+}
