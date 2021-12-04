@@ -1,29 +1,39 @@
-.poligono01{
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+  
+.container {
+    width: 100%;
+    height: 100%;
+}
+div>:nth-child(1){
     background-color: navy;
     float: left;
     width: 20%;
     height: 100%;
 }
 
-.poligono02{
+div>:nth-child(2){
     background-color: teal;
     float: left;
     width: 20%;
     height: 100%;
 }
-.poligono03{
+div>:nth-child(3){
     background-color: purple;
     float: left;
     width: 20%;
     height: 100%;
 }
-.poligono04{
+div>:nth-child(4){
     background-color: olive;
     float: left;
     width: 20%;
     height: 100%;
 }
-.poligono05{
+div>:nth-child(5){
     background-color: red;
     float: left;
     width: 20%;
@@ -31,30 +41,31 @@
 }
 
 @media (max-width: 760px){
-.poligono01{   
+div>:nth-child(1){   
     float: left;
     width: 100%;
     height: 20%;
 }
 
-.poligono02{
+div>:nth-child(2){
     float: left;
     width: 100%;
     height: 20%;
 }
-.poligono03{
+div>:nth-child(3){
     float: left;
     width: 100%;
     height: 20%;
 }
-.poligono04{
+div>:nth-child(4){
     float: left;
     width: 100%;
     height: 20%;
 }
-.poligono05{
+div>:nth-child(5){
     float: right;
     width: 100%;
     height: 20%;
 }
 }
+
