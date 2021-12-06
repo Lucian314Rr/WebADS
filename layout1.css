@@ -35,10 +35,10 @@ html, body {
 }
 @keyframes mov3 {
     from{
-        height: 0;
+        transform:translatey(-100%);
     }
     to{
-        height: 100;
+        transform:translatey(0%);
     }
 }
 @keyframes mov4 {
