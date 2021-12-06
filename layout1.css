@@ -1,7 +1,7 @@
 html, body {
     width: 100%;
     height: 100%;
-    margin: 0%;
+
 }
 
 .container { 
@@ -10,13 +10,19 @@ html, body {
     color: white;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
 
 @keyframes mov1 {
+    from{
+        transform:translate(-100%);
+    }
 
     to{
-        transform: translatex(100%);
+        transform: translatex(0%);
     }
 }
 @keyframes mov2 {
@@ -45,74 +51,52 @@ html, body {
 }
 
 div>:nth-child(1){
-    float: left;
+    width: 100%;
+    height: 100%;
     background-color: navy; 
+    text-align: center;
     vertical-align: middle;
-    width: 100%;
-    height: 20%;
-    animation: mov1 1s linear;
+    animation: mov1 0.5s linear;
 }
 
 div>:nth-child(2){
-    float: left;
+    width: 100%;
+    height: 100%;
     background-color: teal;
+    text-align: center;
     vertical-align: middle;
-    width: 100%;
-    height: 20%;
-    animation: mov2 1s linear;
+    animation: mov2 0.5s linear;
 }
 div>:nth-child(3){
-    float: left;
+    width: 100%;
+    height: 100%;
     background-color: purple;
+    text-align: center;
     vertical-align: middle;
-    width: 100%;
-    height: 20%;
-    animation: mov3 1s linear;
+    animation: mov3 0.5s linear;
 }
 div>:nth-child(4){
-    float: left;
+    width: 100%;
+    height: 100%;
     background-color: olive;
+    text-align: center;
     vertical-align: middle;
-    width: 100%;
-    height: 20%;
-    animation: mov2 1s linear;
+    animation: mov2 0.5s linear;
 }
 div>:nth-child(5){
-    float: left;
+    width: 100%;
+    height: 100%;
     background-color: red;
+    text-align: center;
     vertical-align: middle;
-    width: 100%;
-    height: 20%;
-    animation: mov4 1s linear;
+    animation: mov4 0.5s linear;
 }
 
-@media (min-width: 760px){
-
-div>:nth-child(1){   
-
-    width: 20%;
-    height: 100%;
+@media (max-width: 760px){
+    .container { 
+        flex-direction: column;
+    }
 }
 
-div>:nth-child(2){
 
-    width: 20%;
-    height: 100%;
-}
-div>:nth-child(3){
-  
-    width: 20%;
-    height: 100%;
-}
-div>:nth-child(4){
-  
-    width: 20%;
-    height: 100%;
-}
-div>:nth-child(5){
- 
-    width: 20%;
-    height: 100%;
-}
-}
 
